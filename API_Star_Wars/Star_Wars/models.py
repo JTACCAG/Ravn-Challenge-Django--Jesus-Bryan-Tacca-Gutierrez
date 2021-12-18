@@ -2,7 +2,8 @@ from django.contrib.auth.models import User
 from django.db import models
 # Create your models here.
 
-class person(models.Model):
+#Create model Person 
+class Person(models.Model):
     Name        = models.CharField(max_length=60)
     Birth_Year  = models.CharField(max_length=60)
     Eye_Color   = models.CharField(max_length=60)
