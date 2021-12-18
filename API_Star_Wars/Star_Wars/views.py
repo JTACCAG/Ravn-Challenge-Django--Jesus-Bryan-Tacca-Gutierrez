@@ -7,4 +7,4 @@ from django.shortcuts import render
 
 class PersonViewSet(viewsets.ModelViewSet):
     queryset = Person.objects.all().order_by('Name')
-    serializers_class = PersonSerializer
+    serializer_class = PersonSerializer
