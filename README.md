@@ -2,13 +2,15 @@
 Build a Star Wars API with Django and a webapp that allows you to browse this API. The goal of this challenge is to demonstrate your ability to write clean software, communicate clearly, and follow the instructions.
 
 # Technologies used:
-Python / Django, HTML/CSS, jQuery
+Python \ 
+Django, \
+HTML/CSS, \
+jQuery, \
+Ajax
 
 # Requirements
 Docker \
-Python3 \
-Ajax \
-HTML/CSS
+Python3 
 
 # Running Intructions
 ## Desktop
