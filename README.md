@@ -5,8 +5,10 @@ Build a Star Wars API with Django and a webapp that allows you to browse this AP
 Python / Django, HTML/CSS, jQuery
 
 # Requirements
-Docker \\
-Python3
+Docker \
+Python3 \
+Ajax \
+HTML/CSS
 
 # Running Intructions
 ## Desktop
@@ -14,3 +16,29 @@ Python3
 ## Docker
 
 # Project
+Among the functionalities are:
+## Home
+On this page you can see the objects that can be consulted, with their respective urls.
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/01.PNG)
+## Person
+In this page you can see the list of people in the data, these can be entered in this same page either Html or Json.
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/03.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/04.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/05.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/06.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/11.PNG)
+You can also enter each object and edit or delete it, the editing can be done in the same way either json or normal input.
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/12.PNG)
+
+## Login
+A simple Login page
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/02.PNG)
+## People
+In the same way as on the previous page, this page will show the object the people that will be named as if it were a relevant faction.
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/07.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/08.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/09.PNG)
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/10.PNG)
+## Vehicle
+On this page we can see the Vehicle object which has the same functionalities as the previous pages
+![Home](https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez/blob/main/img/13.PNG)
