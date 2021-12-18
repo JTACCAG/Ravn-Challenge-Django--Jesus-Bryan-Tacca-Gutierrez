@@ -4,13 +4,13 @@ Build a Star Wars API with Django and a webapp that allows you to browse this AP
 # Technologies used:
 Python / Django, HTML/CSS, jQuery
 
-#Requirements
+# Requirements
 Docker
 Python3
 
-#Running Intructions
-##Desktop
+# Running Intructions
+## Desktop
 
-##Docker
+## Docker
 
-#Project
+# Project
