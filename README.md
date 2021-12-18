@@ -4,7 +4,8 @@ Build a Star Wars API with Django and a webapp that allows you to browse this AP
 # Technologies used:
 Python \ 
 Django, \
-HTML/CSS, \
+HTML \
+CSS, \
 jQuery, \
 Ajax
 
@@ -13,10 +14,28 @@ Docker \
 Python3 
 
 # Running Intructions
+```sh
+$ git clone https://github.com/JTACCAG/Ravn-Challenge-Django--Jesus-Bryan-Tacca-Gutierrez.git
+$ cd API_Star_Wars
+```
 ## Desktop
-
+Install requeriments
+```sh
+$ cd pip install -r requirements.txt
+```
+Run
+```sh
+$ python manage.py runserver
+```
 ## Docker
-
+Build
+```sh
+$ docker build --tag django_todo:latest .
+```
+Run image
+```sh
+$ docker run --name django_todo -d -p 8000:8000 django_todo:latest
+```
 # Project
 Among the functionalities are:
 ## Home
