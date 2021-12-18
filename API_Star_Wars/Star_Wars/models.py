@@ -11,3 +11,15 @@ class Person(models.Model):
     Height      = models.IntegerField()
     def __str__(self):
         return self.Name
+
+class People(models.Model):
+    Name        = models.CharField(max_length=60)
+    def __str__(self):
+        return self.Name
+        
+class Vehicles(models.Model):
+    Name    = models.CharField(max_length=60)
+    Class   = models.CharField(max_length=60)
+    Crew    = models.CharField(max_length=60)
+    def __str__(self):
+        return self.Name

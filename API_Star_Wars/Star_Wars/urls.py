@@ -5,6 +5,8 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'Person', views.PersonViewSet)
+router.register(r'People', views.PeopleViewSet)
+router.register(r'Vehicle', views.VehicleViewSet)
 router.get_api_root_view().cls.__name__ = "Api Star Wars"
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.

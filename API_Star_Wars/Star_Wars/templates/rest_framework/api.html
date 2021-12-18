@@ -1,4 +1,5 @@
 {% extends "rest_framework/base.html" %}
+{% load static %}
 {% block title %}
 Api Star Wars
 {% endblock %}
@@ -23,3 +24,16 @@ Api Star Wars
 {% block description %}
     Star Wars app
 {% endblock %}
+{% block script %}
+    <script src="{% static "rest_framework/js/jquery-1.11.3.min.js" %}"></script>
+    <script src="{% static "rest_framework/js/ajax-form.js" %}"></script>
+    <script src="{% static "rest_framework/js/csrf.js" %}"></script>
+    <script src="{% static "rest_framework/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "rest_framework/js/prettify-min.js" %}"></script>
+    <script src="{% static "rest_framework/js/default.js" %}"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').ajaxForm();
+        });
+    </script>
+  {% endblock %}
